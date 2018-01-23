@@ -1,0 +1,107 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.div1 {
+    float: left;
+    width: 98%;
+    height: 100px;
+    outline: 1px solid red;
+}
+
+.div2 {
+    float: left;
+    width: 49%;
+    height: 300px;
+    outline: 1px solid olive;
+
+}
+
+.div3 {
+    float: left;
+    width: 49%;
+    height: 150px;
+    outline: 1px solid maroon;
+}
+
+.div4 {
+    float: left;
+    width: 49%;
+    height: 150px;
+    outline: 1px solid fuchsia;
+}
+
+.div5 {float: left;
+    width: 98%;
+    height: 100px;
+    outline: 1px solid blue;
+
+}
+
+/* sample03.html */
+
+header {
+    padding: 0px;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+nav {
+    text-align: center;
+    background-color: cyan;
+    height: 40px;
+    padding-top: 1px;
+  
+
+}
+
+ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ol li {
+
+    align-self: auto;
+}
+
+
+article {
+
+    padding: 5px;
+    border: dotted 3px #ff0066;
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+aside {
+    padding: 5px;
+    border: double 5px #b200ff;
+    margin: 30px;
+    text-align: center;
+    font-style: italic;
+    background-color: lightblue;
+    list-style-position: inside;
+}
+
+section {
+
+    padding: 5px;
+    margin-top: 50px;
+    border: dashed 5px #0022ff;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
