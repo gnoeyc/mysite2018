@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="description" content="Bootscrap Walkthough">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="LCY">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>
+            My First BootStrap Page
+        </title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- fontawesome.io -->
+        <script src="https://use.fontawesome.com/1881c5f018.js"></script>
+
+        <script>
+                $(document).ready(function(){
+                    $('[data-toggle="tooltip1"]').tooltip(); 
+                });
+                </script>
+
+    </head>
+
+    <body>
+<div class="container-fluid">
+        <div class="jumbotron" style="background-color:rgb(223, 200, 98)">
+    <h1>My First Bootstrap Page</h1>
+    <p>This is some text.</p>
+        </div> 
+        
+        
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">MEOW</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+              <div id="navbar" class="navbar-collapse collapse">
+                  <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                    <input type="text" placeholder="Search" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-default">Search</button>
+                  </form>
+              </div>
+            </div>
+          </nav>
+
+          <div class="container-fluid">
+          <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                 <div style="padding: 10px 10px 10px 10px; float: left; width: 80%;">
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                              <label for="email">Email address:</label>
+                              <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                              <label for="pwd">Password:</label>
+                              <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <div class="checkbox">
+                              <label><input type="checkbox"> Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                          </form>
+                        </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 text-center">
+                    <h1>About Myself</h1>
+                    <hr>
+                    <p>I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. 
+
+                    </p>
+                </div>
+              </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-12">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen=""></iframe>
+                          </div>
+
+            </div>
+           </div>   
+
+            <hr>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <h2>Kitty One</h2>
+                        <p>Cat 1. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I drink milk. </p>
+                        <p>
+                            <a href="#" class="btn btn-default" role="button">View Details &raquo; </a>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h2>Kitty Two</h2>
+                    <p>Cat 2. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I eat fish. </p>
+                    <p>
+                            <a href="#" class="btn btn-default" role="button">View Details &raquo; </a>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h2>Kitty Three</h2>
+                        <p>Cat 3. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I am a cat, I am a cat, I am a cat, I am a cat, I am a cat. I chase rats. </p>
+                        <p>
+                                <a href="#" class="btn btn-default" role="button">View Details &raquo; </a>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 panel panel-default">
+                    <h3 class="text-center">Operating Hours</h3>
+                    <table class="table table-striped">
+                        <thread>
+                            <tr>
+                                <th>Days</th>
+                                <th>Hours</th>
+                            </tr>
+
+                        </thread>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Monday to Thursday
+                            </td>
+                            <td>
+                                    0900 - 1700 hrs
+                            </td>
+                        </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>1100 - 1500 hrs</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-xs-12 col-md-4 panel panel-default">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://goo.gl/KUBB7L" class="responsive-embed"></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 panel panel-default">
+                    <h3> Check Me Out </h3>
+                    <br>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item"><i class="fa fa-envelope" aria-hidden="true"></i> cat@kittens.com</a>
+                        <a href="#" class="list-group-item"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i> +65 1234567</a>
+                        <a href="#" class="list-group-item"><i class="fa fa-telegram" aria-hidden="true"></i> t.me/catkitty</a>
+                    </div>
+                </div>
+
+            </div>
+         <hr>
+         
+         <div class="row">
+             <div class="col-xs-12 text-center">
+                 <ul class="list-inline">
+                     <li><a href="https://www.facebook.com" data-toggle="tooltip1" title="Hooray facebook!"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.instragram.com" data-toggle="tooltip1" title="Hello instragram!"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.google.com"><i class="fa fa-google fa-3x" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.snapchat.com"><i class="fa fa-snapchat fa-3x" aria-hidden="true"></i></a></li>
+
+                 </ul>
+             </div>
+
+         </div>
+
+         <footer class="text-center">
+             Copyright &copy; 2018. Kitty Meow Ptd Ltd.
+         </footer>
+
+          </div>
+    </body>
+</html>
