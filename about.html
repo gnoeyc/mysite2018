@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>LCY Profile Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+     <!-- fontawesome.io -->
+     <script src="https://use.fontawesome.com/1881c5f018.js"></script>
+
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #aa2210; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #bc1f1a !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Chee Yeong Lim</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT FORM</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="./images/propix.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Doctor | Radiologist </h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Short Bio</h3>
+  <p>I am a radiologist subspecializing in musculoskeletal imaging and interventional procedures. I practice in Singapore General Hospital (SGH) a tertiary academic medical institution in Singapore. I graduated from National University of Singapore (NUS) Yong Yoo Lin School of Medicine in 2006, attained NUS Master of Medicine (Diagnostic Radiology) and United Kingdom Royal College of Radiologists Fellowship in 2012. My areas of research interest includes MRI, sports imaging and radiological informatics. I am also active in education, holding appointment of department Director of Training as well as Adjunct Assistant Profession from Duke-NUS Medical School. I am married with two boys and my hobbies are basketball, console gaming, reading and travelling.
+      
+</p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+
+            <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ1WxMlW8Z2jERlkpUYbEJYFw&key=AIzaSyCZ3fC-ft1dZ4GpvaKPteWYL-ZoFXXHwqo" class="responsive-embed"></iframe>
+                </div>
+    
+      
+    </div>
+    <div class="col-sm-4"> 
+            <h3 class="text-center">Clinic Operating Hours</h3>
+            <table class="table table-striped">
+                <thread>
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+
+                </thread>
+                <tbody>
+                    <tr>
+                        <td>
+                            Monday to Friday
+                    </td>
+                    <td>
+                            0830 - 1800 hrs
+                    </td>
+                </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>0830 - 1230 hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+    </div>
+    <div class="col-sm-4"> 
+            <h3> Personal Contact </h3>
+        
+            <div class="list-group">
+                <a href="mailto:cheeyeonglim@singhealth.com.sg" class="list-group-item"><i class="fa fa-envelope" aria-hidden="true"></i> cheeyeonglim@singhealth.com.sg</a>
+                <a href="tel:61234567" class="list-group-item"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i> +65 61234567</a>
+                <a href="https://twitter.com/lcy" class="list-group-item"><i class="fa fa-twitter" aria-hidden="true"></i> twitter.com/@lcy</a>
+            </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>All Rights Reserved. LCY 2018.</a></p> 
+</footer>
+
+</body>
+</html>
