@@ -38,14 +38,17 @@
 
             document.write("Size of employeelist: " + employeelist.length);
 
+            var obj = Object.keys(employeelist[0]);
+            console.log(obj);
+
             document.write("<br>");
             document.write("<table border=2 width=80% align=center>");
             
                 document.write("<thead>");
                 document.write("<tr>")
-                document.write("<th>Name</th>");
-                document.write("<th>Email</th>");
-                document.write("<th>Tel</th>");
+                document.write("<th>" + obj[0] + "</th>");
+                document.write("<th>" + obj[1] + "</th>");
+                document.write("<th>" + obj[2] + "</th>");
                 document.write("</tr>");
                 document.write("</thead>");
             
